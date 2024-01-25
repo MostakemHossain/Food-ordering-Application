@@ -21,7 +21,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="relative">
-          {/* Adjust the width and height values according to your design */}
+          
           <Image src="/pizza.png" width={600} height={600} objectFit="contain" alt="pizza" />
         </div>
       </section>
