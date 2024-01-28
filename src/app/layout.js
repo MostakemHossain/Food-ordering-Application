@@ -1,3 +1,5 @@
+import Footer from '@/components/layout/Footer'
+import Header from '@/components/layout/Header'
 import { Roboto } from 'next/font/google'
 import './globals.css'
 
@@ -13,7 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={roboto.className}>
         <main className='max-w-4xl mx-auto  p-4'>
+        <Header/>
         {children}
+        <Footer/>
         </main>
       </body>
     </html>
